@@ -28,6 +28,50 @@ namespace Card.Helper
             var name = Enum.GetName(typeof(T), value);
             return name.ToEnum<T>();
         }
-       
+        public static bool IsLoapYear(int year)
+        {
+            try
+            {
+                if ((year % 400) == 0)
+                    return true;
+                else if ((year % 100) == 0)
+                    return true;
+                else if ((year % 4) == 0)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception ex)
+            {
+                ExceptionHandle.PrintException(ex);
+                return false;
+            }
+        }
+        public static bool IsPrime(int year)
+        {
+            if ((year & 1) == 0)
+            {
+                if (year == 2)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            for (int i = 3; (i * i) <= year; i += 2)
+            {
+                if ((year % i) == 0)
+                {
+                    return false;
+                }
+            }
+            return year != 1;
+        }
+
+
+
+
     }
 }
