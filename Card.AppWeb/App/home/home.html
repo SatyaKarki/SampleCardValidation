@@ -1,0 +1,96 @@
+﻿
+<md-content layout-padding>
+    <div ng-init="OnInit();">
+        <form name="userForm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-4">
+                        <md-input-container>
+                            <label>Card#</label>
+                            <input ng-model="cardInputViewModel.cardNumber">
+                        </md-input-container>
+                    </div>
+                    <div class="col-sm-2">
+                        <md-input-container flex-gt-sm>
+                            <label>Expiry</label>
+                            <input ng-model="cardInputViewModel.expiryDate">
+                        </md-input-container>
+                    </div>
+                    <div class="col-sm-2" ng-show="false">
+                        <md-input-container class="md-block" flex-gt-xs>
+                            <md-checkbox ng-model="cardInputViewModel.Active" aria-label="" class="md-warn md-align-top-left" flex>Active</md-checkbox>
+                        </md-input-container>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <md-button class="md-raised md-primary" ng-click="ValidateCard()">validate</md-button>
+                    <md-button class="md-raised md-warn" ng-click="ValidateCardBySP()">Validate Card By SP</md-button>
+                    <md-button class="md-raised md-primary" ng-click="SaveCard()">Save</md-button>
+                    <md-button class="md-raised" ng-show="insert" ng-click="SaveCardBySP()">Save By SP</md-button>
+                    <md-button value="Update" class="md-raised md-primary mg-btn-pv-sub-tbl" ng-hide="insert" ng-click="SaveCardBySP()">UpdateBySp</md-button>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    Response
+                    <textarea name="response" class="form-control">
+             {{responseOutput}}
+         </textarea><br>
+
+                </div>
+            </div>
+        </form>
+
+        <div style="overflow:auto; height:450px;" ng-show="cardNumbers.length >0">
+            <table id="myTable" class="table table-bordered table-hover table-responsive" datatable="ng">
+                <thead>
+                    <tr>
+                        <th><i class="fa fa-1-5x fa-gears"></i> </th>
+                        <th>CardNumber</th>
+                        <th>Expiry</th>
+                        <th>CardType</th>
+                        <th>Created</th>
+                        <th>Modified</th>
+                        <th>Active</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="card in cardNumbers">
+                        <td>
+                            <a ng-click="EditCardNumber(card)">
+                                <i class="fa fa-1-5x fa-pencil-square-o color-green"></i>
+                            </a>
+                        </td>
+                        <td>
+                            {{card.CNumber}}
+                        </td>
+                        <td>
+                            {{card.Expiry}}
+                        </td>
+                        <td>
+                            {{card.CardTypeId}}
+                        </td>
+                        <td>
+                            <!--{{card.Created}}-->
+                            <b>{{card.Created | date:"h:mma"}}</b> <br />
+                            <small>{{card.Created| date:"MM/dd/yyyy"}}</small>
+                        </td>
+                        <td>
+                            <!--{{card.Modified}}-->
+                            <b>{{card.Modified | date:"h:mma"}}</b> <br />
+                            <small>{{card.Modified| date:"MM/dd/yyyy"}}</small>
+                        </td>
+                        <td>
+                            {{card.Active}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</md-content>
