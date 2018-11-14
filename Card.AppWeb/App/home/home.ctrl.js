@@ -90,8 +90,7 @@
         };
 
         $scope.EditCardNumber = function (item) {
-           // $scope.cardInputViewModel = item;
-            $scope.cardInputViewModel.cardNumber = item.CNumber;
+           $scope.cardInputViewModel.cardNumber = item.CNumber;
             $scope.cardInputViewModel.expiryDate = item.Expiry;
             $scope.cardInputViewModel.Active = item.Active;
             $scope.insert = false;
@@ -99,11 +98,7 @@
         };
 
         $scope.SaveCard = function () {
-            try {
-                //var checkCard = $filter('filter')($scope.cardNumbers.CNumber, { CNumber: $scope.cardInputViewModel.cardNumber }, true)[0];
-                //if (checkCard != null) {
-                //    alert("This Card Already Exist in the system !!")
-                //}
+            try {               
                 var Param = JSON.stringify($scope.cardInputViewModel);
                 httpService.post("api/Card/SaveCardNumber", Param).then(
                     function success(response) {

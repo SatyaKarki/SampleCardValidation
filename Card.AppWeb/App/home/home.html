@@ -1,19 +1,19 @@
 ﻿
 <md-content layout-padding>
     <div ng-init="OnInit();">
-        <form name="userForm">
+        <form name="cardValidationForm">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="col-sm-4">
                         <md-input-container>
                             <label>Card#</label>
-                            <input ng-model="cardInputViewModel.cardNumber">
+                            <input type="number" maxlength="16" ng-model="cardInputViewModel.cardNumber" required>
                         </md-input-container>
                     </div>
                     <div class="col-sm-2">
                         <md-input-container flex-gt-sm>
                             <label>Expiry</label>
-                            <input ng-model="cardInputViewModel.expiryDate">
+                            <input type="number" maxlength="6" ng-model="cardInputViewModel.expiryDate" required>
                         </md-input-container>
                     </div>
                     <div class="col-sm-2" ng-show="false">
@@ -25,10 +25,10 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <md-button class="md-raised md-primary" ng-click="ValidateCard()">validate</md-button>
-                    <md-button class="md-raised md-warn" ng-click="ValidateCardBySP()">Validate Card By SP</md-button>
-                    <md-button class="md-raised md-primary" ng-click="SaveCard()">Save</md-button>
-                    <md-button class="md-raised" ng-show="insert" ng-click="SaveCardBySP()">Save By SP</md-button>
+                    <md-button class="md-raised md-primary" ng-disabled="cardValidationForm.$invalid" ng-click="ValidateCard()">validate</md-button>
+                    <md-button class="md-raised md-warn" ng-disabled="cardValidationForm.$invalid" ng-click="ValidateCardBySP()">Validate Card By SP</md-button>
+                    <md-button class="md-raised md-primary" ng-disabled="cardValidationForm.$invalid" ng-click="SaveCard()">Save</md-button>
+                    <md-button class="md-accent md-raised md-hue-1" ng-disabled="cardValidationForm.$invalid" ng-show="insert" ng-click="SaveCardBySP()">Save By SP</md-button>
                     <md-button value="Update" class="md-raised md-primary mg-btn-pv-sub-tbl" ng-hide="insert" ng-click="SaveCardBySP()">UpdateBySp</md-button>
 
                 </div>

@@ -1,0 +1,10 @@
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\bin\Debug\CardSystem.dacpac
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\bin\Debug\CardSystem.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\bin\Debug\CardSystem.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\CardSystem.sqlprojResolveAssemblyReference.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\Model.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\refactor.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\postdeploy.sql
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\predeploy.sql
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\CardSystem.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\CardSystem\obj\Debug\CardSystem.pdb
