@@ -579,3 +579,12 @@ Method :-CardService
 Date Time :-11/14/2018 11:10:02 PM
 Message :-Object reference not set to an instance of an object.
 InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Core\CardService.cs:line 257
+
+
+
+File :-Card.Core.CardService
+line :-343
+Method :-CardService
+Date Time :-11/14/2018 11:26:58 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Core\CardService.cs:line 343

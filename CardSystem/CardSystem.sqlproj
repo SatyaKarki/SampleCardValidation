@@ -14,7 +14,7 @@
     </RootPath>
     <RootNamespace>CardSystem</RootNamespace>
     <AssemblyName>CardSystem</AssemblyName>
-    <ModelCollation>1033, CI</ModelCollation>
+    <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -27,6 +27,8 @@
     <SccProvider>SAK</SccProvider>
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
+    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -61,5 +63,16 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\CardType_1.sql" />
+    <Build Include="dbo\Tables\CardNumber_1.sql" />
+    <Build Include="dbo\Stored Procedures\GetAllCardNumber_1.sql" />
+    <Build Include="dbo\Stored Procedures\GetCardNumberById_1.sql" />
+    <Build Include="dbo\Stored Procedures\validateCardType_1.sql" />
+    <Build Include="dbo\Stored Procedures\InsertOrUpdateCardNumber_1.sql" />
   </ItemGroup>
 </Project>
