@@ -11,3 +11,16 @@ F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Model\obj\
 F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Model\obj\Debug\Card.Model.dll
 F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Model\obj\Debug\Card.Model.pdb
 F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Model\obj\Debug\Card.Model.csprojResolveAssemblyReference.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\Card.Model.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\Card.Model.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\EntityFramework.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\Newtonsoft.Json.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\EntityFramework.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\bin\Debug\Newtonsoft.Json.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\obj\Debug\Card.Model.csprojResolveAssemblyReference.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\obj\Debug\Card.Model.csproj.CoreCompileInputs.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\obj\Debug\Card.Model.csproj.CopyComplete
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\obj\Debug\Card.Model.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\SampleCardValidation\Card.Model\obj\Debug\Card.Model.pdb

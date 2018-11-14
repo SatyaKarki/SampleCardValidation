@@ -10,8 +10,13 @@ namespace Card.Interface.IServices
 {
    public interface ICardService
     {
-      
-        Task<ResponseModel> GetCardTypes();
+        Task<ResponseModel> SaveCardNumber(CardInputViewModel cardInputViewModel);
+        Task<ResponseModel> GetAllCardNumbers();
+        Task<ResponseModel> GetAllCardNumbersUsingSP();
+        Task<ResponseModel> GeTCardNumberById(long Id);
+        Task<ResponseModel> CheckValidateCard(CardInputViewModel cardInputViewModel);
+        Task<ResponseModel> CheckValidateCardSP(CardInputViewModel cardInputViewModel);
+        Task<ResponseModel> InsertUpdate(CardInputViewModel cardInputViewModel); Task<ResponseModel> GetCardTypes();
       
 
     }
