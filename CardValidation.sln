@@ -1,0 +1,168 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{22699223-F5C5-4971-82AB-D7E2754DDD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.WebApi", "Card.WebApi\Card.WebApi.csproj", "{7669BD0A-EA4B-4834-A13E-D5E8986184AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{59F938A0-8AE9-4EF6-940F-976826FE2EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Core", "Card.Core\Card.Core.csproj", "{DF17CFBF-874F-4CE3-906C-CB939AC890E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Interface", "Card.Interface\Card.Interface.csproj", "{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Mapper", "Card.Mapper\Card.Mapper.csproj", "{B84D9217-C535-4BC7-9084-14402E1E9D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Utility", "Card.Utility\Card.Utility.csproj", "{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E4DE10AA-A051-4093-BFD4-1BB3853165D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Helper", "Card.Helper\Card.Helper.csproj", "{579E9847-DF3D-4CFD-9CBE-18314088028E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{43C2137B-2C5E-4D16-8856-968CAD794ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Model", "Card.Model\Card.Model.csproj", "{9F951A48-FE23-4398-861C-422FE4F8EBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Repository", "Card.Repository\Card.Repository.csproj", "{68AB89D9-08DD-4C9F-A891-C292057F68F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.AppWeb", "Card.AppWeb\Card.AppWeb.csproj", "{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9436317E-4CD2-44E5-A453-D4F8239FA831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card.Infrastructure", "Card.Infrastructure\Card.Infrastructure.csproj", "{808269A8-3323-4083-9518-A17F29781D63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3788FF73-0251-4825-8A96-C486E5FEC7C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assembly", "Assembly", "{6CEF235A-D937-42FB-B227-B6F48A7F159B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0AAD92BF-8546-41D9-9E8F-C31D6052FF6B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CardSystem", "CardSystem\CardSystem.sqlproj", "{48367B5F-4373-49B0-9E4A-C5540B975F2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7669BD0A-EA4B-4834-A13E-D5E8986184AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7669BD0A-EA4B-4834-A13E-D5E8986184AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7669BD0A-EA4B-4834-A13E-D5E8986184AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7669BD0A-EA4B-4834-A13E-D5E8986184AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF17CFBF-874F-4CE3-906C-CB939AC890E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF17CFBF-874F-4CE3-906C-CB939AC890E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF17CFBF-874F-4CE3-906C-CB939AC890E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF17CFBF-874F-4CE3-906C-CB939AC890E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84D9217-C535-4BC7-9084-14402E1E9D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84D9217-C535-4BC7-9084-14402E1E9D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84D9217-C535-4BC7-9084-14402E1E9D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84D9217-C535-4BC7-9084-14402E1E9D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579E9847-DF3D-4CFD-9CBE-18314088028E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579E9847-DF3D-4CFD-9CBE-18314088028E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579E9847-DF3D-4CFD-9CBE-18314088028E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579E9847-DF3D-4CFD-9CBE-18314088028E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F951A48-FE23-4398-861C-422FE4F8EBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F951A48-FE23-4398-861C-422FE4F8EBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F951A48-FE23-4398-861C-422FE4F8EBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F951A48-FE23-4398-861C-422FE4F8EBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68AB89D9-08DD-4C9F-A891-C292057F68F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68AB89D9-08DD-4C9F-A891-C292057F68F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68AB89D9-08DD-4C9F-A891-C292057F68F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68AB89D9-08DD-4C9F-A891-C292057F68F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808269A8-3323-4083-9518-A17F29781D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808269A8-3323-4083-9518-A17F29781D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808269A8-3323-4083-9518-A17F29781D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808269A8-3323-4083-9518-A17F29781D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7669BD0A-EA4B-4834-A13E-D5E8986184AC} = {22699223-F5C5-4971-82AB-D7E2754DDD3B}
+		{DF17CFBF-874F-4CE3-906C-CB939AC890E7} = {59F938A0-8AE9-4EF6-940F-976826FE2EB0}
+		{9457A5D0-EFB7-40B9-993A-F72AFC3ADA8C} = {59F938A0-8AE9-4EF6-940F-976826FE2EB0}
+		{B84D9217-C535-4BC7-9084-14402E1E9D9B} = {59F938A0-8AE9-4EF6-940F-976826FE2EB0}
+		{AB21F51E-470C-49EC-A40E-C58A8D8A8B0E} = {59F938A0-8AE9-4EF6-940F-976826FE2EB0}
+		{579E9847-DF3D-4CFD-9CBE-18314088028E} = {E4DE10AA-A051-4093-BFD4-1BB3853165D8}
+		{9F951A48-FE23-4398-861C-422FE4F8EBF9} = {43C2137B-2C5E-4D16-8856-968CAD794ADA}
+		{68AB89D9-08DD-4C9F-A891-C292057F68F9} = {43C2137B-2C5E-4D16-8856-968CAD794ADA}
+		{CB86EA95-CB65-48C6-B16B-A1CDD4C1AA75} = {22699223-F5C5-4971-82AB-D7E2754DDD3B}
+		{808269A8-3323-4083-9518-A17F29781D63} = {43C2137B-2C5E-4D16-8856-968CAD794ADA}
+		{6CEF235A-D937-42FB-B227-B6F48A7F159B} = {3788FF73-0251-4825-8A96-C486E5FEC7C5}
+		{0AAD92BF-8546-41D9-9E8F-C31D6052FF6B} = {3788FF73-0251-4825-8A96-C486E5FEC7C5}
+		{48367B5F-4373-49B0-9E4A-C5540B975F2C} = {0AAD92BF-8546-41D9-9E8F-C31D6052FF6B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C135BC-45C2-45A8-9193-5A23B9137322}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rijsat.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Card.AppWeb\\Card.AppWeb.csproj
+		SccProjectTopLevelParentUniqueName1 = CardValidation.sln
+		SccProjectName1 = Card.AppWeb
+		SccLocalPath1 = Card.AppWeb
+		SccProjectUniqueName2 = Card.Core\\Card.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = CardValidation.sln
+		SccProjectName2 = Card.Core
+		SccLocalPath2 = Card.Core
+		SccProjectUniqueName3 = Card.Helper\\Card.Helper.csproj
+		SccProjectTopLevelParentUniqueName3 = CardValidation.sln
+		SccProjectName3 = Card.Helper
+		SccLocalPath3 = Card.Helper
+		SccProjectUniqueName4 = Card.Infrastructure\\Card.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = CardValidation.sln
+		SccProjectName4 = Card.Infrastructure
+		SccLocalPath4 = Card.Infrastructure
+		SccProjectUniqueName5 = Card.Interface\\Card.Interface.csproj
+		SccProjectTopLevelParentUniqueName5 = CardValidation.sln
+		SccProjectName5 = Card.Interface
+		SccLocalPath5 = Card.Interface
+		SccProjectUniqueName6 = Card.Mapper\\Card.Mapper.csproj
+		SccProjectTopLevelParentUniqueName6 = CardValidation.sln
+		SccProjectName6 = Card.Mapper
+		SccLocalPath6 = Card.Mapper
+		SccProjectUniqueName7 = Card.Model\\Card.Model.csproj
+		SccProjectTopLevelParentUniqueName7 = CardValidation.sln
+		SccProjectName7 = Card.Model
+		SccLocalPath7 = Card.Model
+		SccProjectUniqueName8 = Card.Repository\\Card.Repository.csproj
+		SccProjectTopLevelParentUniqueName8 = CardValidation.sln
+		SccProjectName8 = Card.Repository
+		SccLocalPath8 = Card.Repository
+		SccProjectUniqueName9 = Card.Utility\\Card.Utility.csproj
+		SccProjectTopLevelParentUniqueName9 = CardValidation.sln
+		SccProjectName9 = Card.Utility
+		SccLocalPath9 = Card.Utility
+		SccProjectUniqueName10 = Card.WebApi\\Card.WebApi.csproj
+		SccProjectTopLevelParentUniqueName10 = CardValidation.sln
+		SccProjectName10 = Card.WebApi
+		SccLocalPath10 = Card.WebApi
+		SccProjectUniqueName11 = CardSystem\\CardSystem.sqlproj
+		SccProjectTopLevelParentUniqueName11 = CardValidation.sln
+		SccProjectName11 = CardSystem
+		SccLocalPath11 = CardSystem
+	EndGlobalSection
+EndGlobal

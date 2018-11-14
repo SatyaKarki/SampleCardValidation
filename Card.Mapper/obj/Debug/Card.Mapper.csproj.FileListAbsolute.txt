@@ -1,0 +1,17 @@
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Mapper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Mapper.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Helper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Model.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Utility.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Newtonsoft.Json.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\EntityFramework.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Helper.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Model.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Card.Utility.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\Newtonsoft.Json.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\bin\Debug\EntityFramework.xml
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\obj\Debug\Card.Mapper.csprojResolveAssemblyReference.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\obj\Debug\Card.Mapper.csproj.CoreCompileInputs.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\obj\Debug\Card.Mapper.csproj.CopyComplete
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\obj\Debug\Card.Mapper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Mapper\obj\Debug\Card.Mapper.pdb

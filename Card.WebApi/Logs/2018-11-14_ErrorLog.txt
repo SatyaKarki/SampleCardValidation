@@ -1,0 +1,525 @@
+File :-System.Data.SqlClient.SqlInternalConnectionTds
+line :-0
+Method :-SqlInternalConnectionTds
+Date Time :-11/14/2018 11:45:01 AM
+Message :-A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+InnerException :-
+
+
+
+File :-Card.Helper.ExceptionLog.ExceptionHandle
+line :-18
+Method :-ExceptionHandle
+Date Time :-11/14/2018 3:26:39 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Helper.ExceptionLog.ExceptionHandle.PrintException(Exception exception) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\ExceptionLog\ExceptionHandle.cs:line 18
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.WebApi.Controllers.CardController.<SaveCardNumber>d__4.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.WebApi\Controllers\CardController.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+
+
+File :-Card.Helper.ExceptionLog.ExceptionHandle
+line :-18
+Method :-ExceptionHandle
+Date Time :-11/14/2018 3:28:31 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Helper.ExceptionLog.ExceptionHandle.PrintException(Exception exception) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\ExceptionLog\ExceptionHandle.cs:line 18
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 329
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.WebApi.Controllers.CardController.<SaveCardNumber>d__4.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.WebApi\Controllers\CardController.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:20:05 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:23:53 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:39:56 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:42:06 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:42:12 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:43:34 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-Card.Core.CardService+<InsertUpdate>d__12
+line :-283
+Method :-<InsertUpdate>d__12
+Date Time :-11/14/2018 5:46:15 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 283
+
+
+
+File :-Card.Core.CardService
+line :-355
+Method :-CardService
+Date Time :-11/14/2018 5:49:48 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.ValidateCard(String cardNumber, String expiry) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 355
+
+
+
+File :-System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions+<SingleOrDefaultAsync>d__38`1
+line :-0
+Method :-<SingleOrDefaultAsync>d__38`1
+Date Time :-11/14/2018 6:02:27 PM
+Message :-Sequence contains more than one element
+InnerException :----: StackTrace   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleOrDefaultAsync>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 289
+
+
+
+File :-Card.Core.CardService+<InsertUpdate>d__12
+line :-283
+Method :-<InsertUpdate>d__12
+Date Time :-11/14/2018 6:05:28 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 283
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:19:11 PM
+Message :-Procedure or function InsertOrUpdateCardNumber has too many arguments specified.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 57
+
+
+
+File :-System.Runtime.CompilerServices.TaskAwaiter
+line :-0
+Method :-TaskAwaiter
+Date Time :-11/14/2018 6:26:17 PM
+Message :-A task was canceled.
+InnerException :----: StackTrace   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+
+
+
+File :-System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions+<SingleOrDefaultAsync>d__38`1
+line :-0
+Method :-<SingleOrDefaultAsync>d__38`1
+Date Time :-11/14/2018 6:27:29 PM
+Message :-Sequence contains more than one element
+InnerException :----: StackTrace   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleOrDefaultAsync>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 289
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:34:12 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:40:09 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:43:30 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:44:22 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions+<SingleOrDefaultAsync>d__38`1
+line :-0
+Method :-<SingleOrDefaultAsync>d__38`1
+Date Time :-11/14/2018 6:46:43 PM
+Message :-Sequence contains more than one element
+InnerException :----: StackTrace   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleOrDefaultAsync>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 289
+
+
+
+File :-System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions+<SingleOrDefaultAsync>d__38`1
+line :-0
+Method :-<SingleOrDefaultAsync>d__38`1
+Date Time :-11/14/2018 6:47:18 PM
+Message :-Sequence contains more than one element
+InnerException :----: StackTrace   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleOrDefaultAsync>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 289
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:49:39 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:51:04 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:53:01 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-System.Data.SqlClient.SqlConnection
+line :-0
+Method :-SqlConnection
+Date Time :-11/14/2018 6:57:09 PM
+Message :-The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CardNumber_CardType". The conflict occurred in database "CardSystem", table "dbo.CardType", column 'Id'.
+The statement has been terminated.
+InnerException :----: StackTrace   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Card.Repository.CardRepositoy.InsertUpdate(CardNumber cardNumber) in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Repository\CardRepositoy.cs:line 53
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:58:22 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:58:42 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:58:44 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:10 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:11 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:12 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:16 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:17 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<CheckValidateCardSP>d__11
+line :-234
+Method :-<CheckValidateCardSP>d__11
+Date Time :-11/14/2018 6:59:18 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<CheckValidateCardSP>d__11.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 234
+
+
+
+File :-Card.Core.CardService+<SaveCardNumber>d__9
+line :-148
+Method :-<SaveCardNumber>d__9
+Date Time :-11/14/2018 7:04:50 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<SaveCardNumber>d__9.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 148
+
+
+
+File :-Card.Core.CardService+<SaveCardNumber>d__9
+line :-148
+Method :-<SaveCardNumber>d__9
+Date Time :-11/14/2018 7:04:54 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<SaveCardNumber>d__9.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 148
+
+
+
+File :-Card.Core.CardService+<SaveCardNumber>d__9
+line :-148
+Method :-<SaveCardNumber>d__9
+Date Time :-11/14/2018 7:05:04 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<SaveCardNumber>d__9.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 148
+
+
+
+File :-Card.Core.CardService+<SaveCardNumber>d__9
+line :-148
+Method :-<SaveCardNumber>d__9
+Date Time :-11/14/2018 7:05:58 PM
+Message :-Object reference not set to an instance of an object.
+InnerException :----: StackTrace   at Card.Core.CardService.<SaveCardNumber>d__9.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 148
+
+
+
+File :-System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions+<SingleOrDefaultAsync>d__38`1
+line :-0
+Method :-<SingleOrDefaultAsync>d__38`1
+Date Time :-11/14/2018 8:05:51 PM
+Message :-Sequence contains more than one element
+InnerException :----: StackTrace   at System.Data.Entity.Infrastructure.IDbAsyncEnumerableExtensions.<SingleOrDefaultAsync>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Card.Core.CardService.<InsertUpdate>d__12.MoveNext() in F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Core\CardService.cs:line 288

@@ -1,0 +1,82 @@
+11/14/2018 9:41:58 PM	This log contains information about the import schema operation into project 'CardSystem' on computer 'SATYAPC' by user 'Satya'.
+11/14/2018 9:41:59 PM	Import of database schema has started.
+11/14/2018 9:42:13 PM	Gathering database credentials
+11/14/2018 9:42:13 PM	Gathering database options
+11/14/2018 9:42:13 PM	Gathering generic database scoped configuration option
+11/14/2018 9:42:13 PM	Gathering users
+11/14/2018 9:42:13 PM	Gathering roles
+11/14/2018 9:42:13 PM	Gathering application roles
+11/14/2018 9:42:13 PM	Gathering role memberships
+11/14/2018 9:42:13 PM	Gathering filegroups
+11/14/2018 9:42:13 PM	Gathering full-text catalogs
+11/14/2018 9:42:13 PM	Gathering assemblies
+11/14/2018 9:42:13 PM	Gathering certificates
+11/14/2018 9:42:13 PM	Gathering asymmetric keys
+11/14/2018 9:42:13 PM	Gathering symmetric keys
+11/14/2018 9:42:13 PM	Gathering encrypted symmetric keys
+11/14/2018 9:42:13 PM	Gathering schemas
+11/14/2018 9:42:13 PM	Gathering XML schema collections
+11/14/2018 9:42:13 PM	Gathering user-defined data types
+11/14/2018 9:42:13 PM	Gathering user-defined types
+11/14/2018 9:42:13 PM	Gathering table types
+11/14/2018 9:42:13 PM	Gathering unique keys for table types
+11/14/2018 9:42:13 PM	Gathering primary keys for table types
+11/14/2018 9:42:13 PM	Gathering indexes for table types
+11/14/2018 9:42:13 PM	Gathering check constraints for table types
+11/14/2018 9:42:13 PM	Gathering default constraints for table types
+11/14/2018 9:42:13 PM	Gathering partition functions
+11/14/2018 9:42:13 PM	Gathering partition schemes
+11/14/2018 9:42:13 PM	Gathering functions
+11/14/2018 9:42:13 PM	Gathering encrypted functions
+11/14/2018 9:42:13 PM	Gathering aggregates
+11/14/2018 9:42:13 PM	Gathering procedures
+11/14/2018 9:42:13 PM	Gathering encrypted procedures
+11/14/2018 9:42:13 PM	Gathering tables
+11/14/2018 9:42:13 PM	Gathering primary keys
+11/14/2018 9:42:13 PM	Gathering unique constraints
+11/14/2018 9:42:13 PM	Gathering foreign keys
+11/14/2018 9:42:13 PM	Gathering default constraints
+11/14/2018 9:42:13 PM	Gathering check constraints
+11/14/2018 9:42:13 PM	Gathering views
+11/14/2018 9:42:13 PM	Gathering encrypted views
+11/14/2018 9:42:13 PM	Gathering indexes
+11/14/2018 9:42:13 PM	Gathering statistics
+11/14/2018 9:42:13 PM	Gathering full-text index stoplists
+11/14/2018 9:42:13 PM	Gathering search property lists
+11/14/2018 9:42:13 PM	Gathering search properties
+11/14/2018 9:42:13 PM	Gathering full-text indexes
+11/14/2018 9:42:13 PM	Gathering column store indexes
+11/14/2018 9:42:13 PM	Gathering spatial indexes
+11/14/2018 9:42:15 PM	Gathering XML indexes
+11/14/2018 9:42:15 PM	Gathering Selective XML indexes
+11/14/2018 9:42:15 PM	Gathering encrypted triggers
+11/14/2018 9:42:15 PM	Gathering triggers
+11/14/2018 9:42:15 PM	Gathering encrypted and clr ddl triggers
+11/14/2018 9:42:15 PM	Gathering ddl triggers
+11/14/2018 9:42:15 PM	Gathering synonyms
+11/14/2018 9:42:15 PM	Gathering defaults
+11/14/2018 9:42:15 PM	Gathering data constraint uddt bindings
+11/14/2018 9:42:15 PM	Gathering rules
+11/14/2018 9:42:15 PM	Gathering data constraint uddt bindings
+11/14/2018 9:42:15 PM	Gathering message types
+11/14/2018 9:42:15 PM	Gathering queues
+11/14/2018 9:42:15 PM	Gathering contracts
+11/14/2018 9:42:15 PM	Gathering services
+11/14/2018 9:42:15 PM	Gathering event notifications
+11/14/2018 9:42:15 PM	Gathering remote service bindings
+11/14/2018 9:42:15 PM	Gathering broker priorities
+11/14/2018 9:42:15 PM	Gathering signatures
+11/14/2018 9:42:15 PM	Gathering data compression options
+11/14/2018 9:42:15 PM	Gathering sequence types
+11/14/2018 9:42:15 PM	Gathering security policies
+11/14/2018 9:42:15 PM	Gather column encryption keys
+11/14/2018 9:42:15 PM	Gathering column master keys
+11/14/2018 9:42:15 PM	Gathering external data sources
+11/14/2018 9:42:15 PM	Gathering external file formats
+11/14/2018 9:42:15 PM	Gathering external tables
+11/14/2018 9:42:15 PM	Gathering extended properties
+11/14/2018 9:42:16 PM	Scanning project for duplicate elements
+11/14/2018 9:42:16 PM	Finished duplicate element processing
+11/14/2018 9:42:17 PM	Finished importing database.
+11/14/2018 9:42:17 PM	A summary of the import was saved to the following location: F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\CardSystem\Import Schema Logs\CardSystem_20181114034158.log
+11/14/2018 9:42:17 PM	Click Finish to continue...

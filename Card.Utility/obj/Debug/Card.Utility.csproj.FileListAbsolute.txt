@@ -1,0 +1,9 @@
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\bin\Debug\Card.Utility.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\bin\Debug\Card.Utility.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\bin\Debug\Card.Helper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\bin\Debug\Card.Helper.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\obj\Debug\Card.Utility.csprojResolveAssemblyReference.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\obj\Debug\Card.Utility.csproj.CoreCompileInputs.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\obj\Debug\Card.Utility.csproj.CopyComplete
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\obj\Debug\Card.Utility.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Utility\obj\Debug\Card.Utility.pdb

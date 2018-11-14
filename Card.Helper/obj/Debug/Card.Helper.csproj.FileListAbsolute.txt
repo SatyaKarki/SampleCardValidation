@@ -1,0 +1,5 @@
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\bin\Debug\Card.Helper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\bin\Debug\Card.Helper.pdb
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\obj\Debug\Card.Helper.csproj.CoreCompileInputs.cache
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\obj\Debug\Card.Helper.dll
+F:\Rijwan Sony vaio\Satya Materials for Community\TFSSoftwareArc\Card.Helper\obj\Debug\Card.Helper.pdb
